@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --cor-de-fundo-do-titulo: #f06;
     --cor-do-texto-do-titulo: #333;
@@ -40,6 +46,7 @@ main {
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: var(--border);
@@ -56,11 +63,21 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
+    position: relative;
     width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 1;
+
 }
 
 aside p {
@@ -72,4 +89,16 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
     font: var(--fonte-titulo);
+}
+
+/*Seletores de Classe*/
+
+.caixa {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    background-color: burlywood;
+    color: #000;
+
+    clear: both;
 }
