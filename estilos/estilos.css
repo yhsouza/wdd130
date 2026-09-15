@@ -1,6 +1,15 @@
+:root {
+    --cor-de-fundo-do-titulo: #f06;
+    --cor-do-texto-do-titulo: #333;
+    --fonte-titulo: 'Monteserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
 nav {
     background-color: darkblue;
-    padding: 10px;
+    padding: var(--padding);
+    font: var(--fonte-titulo);
 }
 
 nav a {
@@ -17,13 +26,13 @@ h1 {
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
+    border: var(--border);
+    padding: var(--padding);
     box-shadow: 0 0 30px gray;
 }
 
 main p {
-    padding: 20px;
+    padding: var(--padding);
 }
 
 main {
@@ -33,17 +42,17 @@ main {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
+    border: var(--border);
+    padding: var(--padding);
     box-shadow: 0 0 30px gray;
 }
 
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
+    border: var(--border);
     /*1*/
-    padding: 1rem;
+    padding: var(--padding);
     background-color: #eee;
     color: #333;
     text-align: center;
@@ -62,4 +71,5 @@ footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+    font: var(--fonte-titulo);
 }
