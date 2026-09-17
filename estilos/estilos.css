@@ -77,7 +77,6 @@ aside h2 {
     top: 50px;
     left: 100px;
     z-index: 1;
-
 }
 
 aside p {
@@ -101,4 +100,8 @@ footer {
     color: #000;
 
     clear: both;
+}
+
+p {
+    padding: 0;
 }
