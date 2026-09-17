@@ -38,7 +38,7 @@ img {
 }
 
 main p {
-    padding: var(--padding);
+    padding: 0;
 }
 
 main {
