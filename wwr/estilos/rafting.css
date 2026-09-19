@@ -1,10 +1,10 @@
 :root {
-    --cor-primaria: #055a05;
-    --cor-secundaria: #f4a261;
-    --cor-destaque1: #264653;
-    --cor-destaque2: #e9c46a;
-    --fonte-titulo: "Times New Roman", "Georgia", serif;
-    --fonte-body: Arial, Helvetica, sans-serif;
+    --primary-color: #055a05;
+    --secundary-color: #f4a261;
+    --accent-color1: #264653;
+    --accent-color2: #e9c46a;
+    --title-font: "Times New Roman", "Georgia", serif;
+    --font-body: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -14,8 +14,8 @@
 }
 
 body {
-    font-family: var(--fonte-body);
-    color: var(--cor-destaque1);
+    font-family: var(--font-body);
+    color: var(--accent-color1);
 }
 
 header,
@@ -27,8 +27,8 @@ footer {
 
 h1,
 h2 {
-    font-family: var(--fonte-titulo);
-    color: var(--cor-primaria);
+    font-family: var(--title-font);
+    color: var(--primary-color);
     text-align: center;
 }
 
@@ -62,7 +62,7 @@ footer a {
     padding: 20px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--cor-destaque1);
+    background-color: var(--accent-color1);
     color: #fff;
 }
 
@@ -73,7 +73,7 @@ footer a {
 .hero article img {
     float: right;
     width: 125px;
-    border: var(--cor-destaque1);
+    border: var(--accent-color1);
     box-shadow: #264653;
     text-decoration: none;
 }
