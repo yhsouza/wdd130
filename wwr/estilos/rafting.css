@@ -60,7 +60,7 @@ article {
 
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -71,7 +71,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: relative;
 }
 
@@ -80,4 +80,5 @@ article {
     width: 125px;
     border: var(--cor-destaque1);
     box-shadow: #264653;
+    text-decoration: none;
 }
