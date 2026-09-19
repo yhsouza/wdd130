@@ -68,6 +68,10 @@ footer a {
 
 .hero article {
     position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: var(--cor-secundaria);
 }
 
 .hero article img {
