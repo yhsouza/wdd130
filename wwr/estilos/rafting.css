@@ -45,7 +45,7 @@ article {
     padding: 8px;
 }
 
-.redes-sociais a {
+footer a {
     text-decoration: none;
 }
 
@@ -72,7 +72,7 @@ article {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
 }
 
 .hero article img {
