@@ -124,7 +124,10 @@ header, footer .grid {
 
 .grid { 
     display: grid;
-    align-items: center;
+    align-items: start;
+    grid-template-columns: 20rem 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 main { 
