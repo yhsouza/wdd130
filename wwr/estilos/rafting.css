@@ -28,7 +28,7 @@ footer {
 h1,
 h2 {
     font-family: var(--title-font);
-    color: var(--accent-color2);
+    color: #264653;
     text-align: center;
 }
 
@@ -41,7 +41,7 @@ article {
 }
 
 p {
-    color: var(--primary-color);
+    color: #264653;
 }
 
 header {
