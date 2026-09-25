@@ -113,7 +113,7 @@ footer a {
     float: right;
     width: 125px;
     border: var(--accent-color1);
-    box-shadow: #264653;
+    box-shadow: var(--accent-color1);
     text-decoration: none;
 }
 
