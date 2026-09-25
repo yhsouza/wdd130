@@ -50,8 +50,9 @@ header {
     align-items: center;
     background-color: #e9c46a;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 10px;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 nav ul {
@@ -131,7 +132,7 @@ p {
     gap: 20px;
     align-items: center;
 
-    border: 1px solid #999;
+    border: 1px solid var(--accent-color1);
     padding: 20px;
     background-color: #ddd;
     er;
@@ -140,12 +141,6 @@ p {
 .story h2 {
     grid-column: 1 / 4;
     text-align: center;
-}
-
-.story img {
-    grid-column: 2;
-    width: 200px;
-    height: auto;
 }
 
 .story p:first-of-type {
@@ -202,20 +197,12 @@ footer {
     grid-template-columns: 1fr auto;
     align-items: center;
 
-    background-color: #ccc;
-    padding: 20px;
-}
-
-footer {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-
     background-color: var(--accent-color2);
     padding: 20px;
 
     border: 1px solid var(--secundary-color);
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 
