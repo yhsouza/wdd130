@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario-pesquisa.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Preencha as informacoes</h1>
+    </header>
+    <main>
+        <form>
+            <label for="nomecompleto">Nome Completo:</label>
+            <input type="text" id="nome-completo" name="nome-completo" required>
+
+            <label for="emaildousuario">E-mail:</label>
+            <input type="email" id="email-do-usuario" name="email-do-usuario" required>
+
+            <label for="navegador">Qual é o seu navegador favorito?</label>
+            <select name="quantidade" id="quantidade">
+                <option value="1">Chrome</option>
+                <option value="2">Safari</option>
+                <option value="3">Edge</option>
+            </select>
+
+            <label for="pet" Você tem um bichinho e estimacao?></label>
+            <input type="checkbox" id="pet" name="pet">
+            <label for="feedback">Liste os lugares onde você morou:</label>
+            <textarea name="feedback" id="feedback" rows="4"
+              placeholder="Campinas, Hortolandia, Rio Claro, João Pessoa"></textarea>
+
+            <button type="submit">Enviar Pesquisa</button>
+        </form>
+    </main>
+
+    <footer></footer>
+</body>
+
+</html>
