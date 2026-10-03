@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Rafting é um tipo de esporte que envolve navegar botes não motorizados por rios, cachoeiras e corredeiras.  ">
+    <meta name="author" content="Yan Hagassy">
+    <link rel="stylesheet" href="estilos/contato.css">
+    <title>Contato - Fale conosco</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="imagens/z-splash.png" alt="logo da empresa">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="passeios.html">Passeios</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section class="contato">
+
+        <!-- ESQUERDA -->
+        <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57608.34988392922!2d-54.591164399711616!3d-25.520987930656062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f690ebae530a43%3A0x21979473b4c4a952!2sFoz%20do%20Igua%C3%A7u%2C%20PR!5e0!3m2!1spt-BR!2sbr!4v1791004415539!5m2!1spt-BR!2sbr"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+        <!-- DIREITA -->
+        <form>
+
+            <div class="campo">
+                <label for="nome-completo">Nome</label>
+                <input type="text" id="nome-completo" name="nome-completo" placeholder="Digite aqui"
+                  required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite aqui" required>
+            </div>
+
+            <div class="campo-radio">
+
+                <span>Propósito da<br>Mensagem</span>
+
+                <div class="opcoes">
+                    <label>
+                        <input type="radio" name="proposito" value="duvida" checked>
+                        Dúvida Geral
+                    </label>
+
+                    <label>
+                        <input type="radio" name="proposito" value="reserva">
+                        Pergunta sobre Reserva
+                    </label>
+
+                    <label>
+                        <input type="radio" name="proposito" value="sugestao">
+                        Sugestão
+                    </label>
+                </div>
+
+            </div>
+
+            <div class="mensagem">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Digite aqui"></textarea>
+            </div>
+
+            <div class="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter">
+
+                <label for="newsletter">
+                    Por favor, me inscreva na newsletter mensal
+                </label>
+            </div>
+
+            <button type="submit">
+                Entrar em Contato!
+            </button>
+
+        </form>
+
+    </section>
+
+    <footer>
+        <p>©️ 2026 Hagassy Rafting | Yan Hagassy</p>
+
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/"> <img src="imagens/facebook.svg" alt="facebook"></a>
+            <a href="https://www.instagram.com/"> <img src="imagens/instagram.svg"
+                  alt="instagram"></a>
+            <a href="https://www.tiktok.com/pt-BR/"> <img src="imagens/tictok-bw.svg"
+                  alt="tiktok"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
