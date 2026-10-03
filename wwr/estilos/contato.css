@@ -250,6 +250,40 @@ footer {
     margin-bottom: 10px;
 }
 
+.funcionarios {
+    width: 100%;
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.funcionarios h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.equipe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.equipe figure {
+    margin: 0;
+    text-align: center;
+}
+
+.equipe img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.equipe figcaption {
+    margin-top: 8px;
+    color: #000;
+}
+
 footer p {
     font-family: var(--title-font);
 
