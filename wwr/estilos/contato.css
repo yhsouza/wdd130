@@ -251,10 +251,10 @@ footer {
 }
 
 .funcionarios {
-    width: 100%;
+    width: 840px;
+    margin: 20px auto;
     border: 1px solid #000;
     padding: 20px;
-    margin-bottom: 20px;
 }
 
 .funcionarios h2 {
