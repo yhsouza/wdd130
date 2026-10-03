@@ -500,19 +500,16 @@ footer a {
 /* =========================
    REDES SOCIAIS
 ========================= */
-
-.socialmedia {
+.redes-sociais {
     display: flex;
-
     gap: 15px;
 }
 
-.socialmedia img {
+.redes-sociais img {
     width: 40px;
-
     height: 40px;
 }
 
-.socialmedia a {
+.redes-sociais a {
     text-decoration: none;
 }
